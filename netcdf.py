@@ -32,9 +32,6 @@ lon_indices = np.where((longitudes >= lon_min) & (longitudes <= lon_max))[0]
 # Extract the 'tide+rise+surge' variable
 tide_rise_surge = dataset.variables['waterlevel']
 
-print(lat_indices)
-#print(lon_indices)  # Check the shape of the variable
-
 # Initialize an empty list to store results
 results = []
 
